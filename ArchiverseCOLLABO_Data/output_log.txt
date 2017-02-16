@@ -1,0 +1,698 @@
+Initialize engine version: 5.4.2f1 (94e3a60ee258)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: Intel(R) HD Graphics 5500 (ID=0x1616)
+    Vendor:   Intel
+    VRAM:     2111 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\louis\Documents\Archiverse\P1RV_GIT\P1RV_CLONE\Build\ArchiverseCOLLABO_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\louis\Documents\Archiverse\P1RV_GIT\P1RV_CLONE\Build\ArchiverseCOLLABO_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\louis\Documents\Archiverse\P1RV_GIT\P1RV_CLONE\Build\ArchiverseCOLLABO_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\louis\Documents\Archiverse\P1RV_GIT\P1RV_CLONE\Build\ArchiverseCOLLABO_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\louis\Documents\Archiverse\P1RV_GIT\P1RV_CLONE\Build\ArchiverseCOLLABO_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\louis\Documents\Archiverse\P1RV_GIT\P1RV_CLONE\Build\ArchiverseCOLLABO_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\louis\Documents\Archiverse\P1RV_GIT\P1RV_CLONE\Build\ArchiverseCOLLABO_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\louis\Documents\Archiverse\P1RV_GIT\P1RV_CLONE\Build\ArchiverseCOLLABO_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\louis\Documents\Archiverse\P1RV_GIT\P1RV_CLONE\Build\ArchiverseCOLLABO_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\louis\Documents\Archiverse\P1RV_GIT\P1RV_CLONE\Build\ArchiverseCOLLABO_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\louis\Documents\Archiverse\P1RV_GIT\P1RV_CLONE\Build\ArchiverseCOLLABO_Data\Managed\LeapCSharp.NET3.5.dll (this message is harmless)
+Loading C:\Users\louis\Documents\Archiverse\P1RV_GIT\P1RV_CLONE\Build\ArchiverseCOLLABO_Data\Managed\LeapCSharp.NET3.5.dll into Unity Child Domain
+- Completed reload, in  0.296 seconds
+Platform assembly: C:\Users\louis\Documents\Archiverse\P1RV_GIT\P1RV_CLONE\Build\ArchiverseCOLLABO_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\louis\Documents\Archiverse\P1RV_GIT\P1RV_CLONE\Build\ArchiverseCOLLABO_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+ovr_Initialize(&initParams) failed: Couldn't load LibOVRRT.
+Compositor failed to initialize.ovr_Initialize(&initParams) failed: Couldn't load LibOVRRT.
+Compositor failed to initialize.Shader 'Outlined/Silhouetted Bumped Diffuse': fallback shader 'Outlined/Silhouetted Diffuse' not found
+WARNING: Shader Unsupported: 'Outlined/Silhouetted Bumped Diffuse' - Pass 'OUTLINE' has no vertex shader
+UnloadTime: 1.208122 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 1c98 -> priority: 1 
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:InvokeCmdCmdCreer(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte)
+UnityEngine.Networking.NetworkServerSimple:Update()
+UnityEngine.Networking.NetworkServer:InternalUpdate()
+UnityEngine.Networking.NetworkServer:Update()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:InvokeCmdCmdCreer(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte)
+UnityEngine.Networking.NetworkServerSimple:Update()
+UnityEngine.Networking.NetworkServer:InternalUpdate()
+UnityEngine.Networking.NetworkServer:Update()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
+instantiation !! 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:CallCmdCreer()
+NetworkInstance:Update()
+ 
+(Filename:  Line: -1)
+
+instantiation !! 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:CallCmdCreer()
+NetworkInstance:Update()
+ 
+(Filename:  Line: -1)
+
+instantiation !! 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:CallCmdCreer()
+NetworkInstance:Update()
+ 
+(Filename:  Line: -1)
+
+instantiation !! 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:CallCmdCreer()
+NetworkInstance:Update()
+ 
+(Filename:  Line: -1)
+
+instantiation !! 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:CallCmdCreer()
+NetworkInstance:Update()
+ 
+(Filename:  Line: -1)
+
+instantiation !! 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:CallCmdCreer()
+NetworkInstance:Update()
+ 
+(Filename:  Line: -1)
+
+instantiation !! 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:CallCmdCreer()
+NetworkInstance:Update()
+ 
+(Filename:  Line: -1)
+
+instantiation !! 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:CallCmdCreer()
+NetworkInstance:Update()
+ 
+(Filename:  Line: -1)
+
+instantiation !! 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:CallCmdCreer()
+NetworkInstance:Update()
+ 
+(Filename:  Line: -1)
+
+instantiation !! 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:CallCmdCreer()
+NetworkInstance:Update()
+ 
+(Filename:  Line: -1)
+
+instantiation !! 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:CallCmdCreer()
+NetworkInstance:Update()
+ 
+(Filename:  Line: -1)
+
+instantiation !! 
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:CallCmdCreer()
+NetworkInstance:Update()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:InvokeCmdCmdCreer(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte)
+UnityEngine.Networking.NetworkServerSimple:Update()
+UnityEngine.Networking.NetworkServer:InternalUpdate()
+UnityEngine.Networking.NetworkServer:Update()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:InvokeCmdCmdCreer(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte)
+UnityEngine.Networking.NetworkServerSimple:Update()
+UnityEngine.Networking.NetworkServer:InternalUpdate()
+UnityEngine.Networking.NetworkServer:Update()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:InvokeCmdCmdCreer(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte)
+UnityEngine.Networking.NetworkServerSimple:Update()
+UnityEngine.Networking.NetworkServer:InternalUpdate()
+UnityEngine.Networking.NetworkServer:Update()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:InvokeCmdCmdCreer(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte)
+UnityEngine.Networking.NetworkServerSimple:Update()
+UnityEngine.Networking.NetworkServer:InternalUpdate()
+UnityEngine.Networking.NetworkServer:Update()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:InvokeCmdCmdCreer(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte)
+UnityEngine.Networking.NetworkServerSimple:Update()
+UnityEngine.Networking.NetworkServer:InternalUpdate()
+UnityEngine.Networking.NetworkServer:Update()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:InvokeCmdCmdCreer(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte)
+UnityEngine.Networking.NetworkServerSimple:Update()
+UnityEngine.Networking.NetworkServer:InternalUpdate()
+UnityEngine.Networking.NetworkServer:Update()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:InvokeCmdCmdCreer(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte)
+UnityEngine.Networking.NetworkServerSimple:Update()
+UnityEngine.Networking.NetworkServer:InternalUpdate()
+UnityEngine.Networking.NetworkServer:Update()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:InvokeCmdCmdCreer(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte)
+UnityEngine.Networking.NetworkServerSimple:Update()
+UnityEngine.Networking.NetworkServer:InternalUpdate()
+UnityEngine.Networking.NetworkServer:Update()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:InvokeCmdCmdCreer(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte)
+UnityEngine.Networking.NetworkServerSimple:Update()
+UnityEngine.Networking.NetworkServer:InternalUpdate()
+UnityEngine.Networking.NetworkServer:Update()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:InvokeCmdCmdCreer(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte)
+UnityEngine.Networking.NetworkServerSimple:Update()
+UnityEngine.Networking.NetworkServer:InternalUpdate()
+UnityEngine.Networking.NetworkServer:Update()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:InvokeCmdCmdCreer(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte)
+UnityEngine.Networking.NetworkServerSimple:Update()
+UnityEngine.Networking.NetworkServer:InternalUpdate()
+UnityEngine.Networking.NetworkServer:Update()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:InvokeCmdCmdCreer(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte)
+UnityEngine.Networking.NetworkServerSimple:Update()
+UnityEngine.Networking.NetworkServer:InternalUpdate()
+UnityEngine.Networking.NetworkServer:Update()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:InvokeCmdCmdCreer(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte)
+UnityEngine.Networking.NetworkServerSimple:Update()
+UnityEngine.Networking.NetworkServer:InternalUpdate()
+UnityEngine.Networking.NetworkServer:Update()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:InvokeCmdCmdCreer(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte)
+UnityEngine.Networking.NetworkServerSimple:Update()
+UnityEngine.Networking.NetworkServer:InternalUpdate()
+UnityEngine.Networking.NetworkServer:Update()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:InvokeCmdCmdCreer(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte)
+UnityEngine.Networking.NetworkServerSimple:Update()
+UnityEngine.Networking.NetworkServer:InternalUpdate()
+UnityEngine.Networking.NetworkServer:Update()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:InvokeCmdCmdCreer(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte)
+UnityEngine.Networking.NetworkServerSimple:Update()
+UnityEngine.Networking.NetworkServer:InternalUpdate()
+UnityEngine.Networking.NetworkServer:Update()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:InvokeCmdCmdCreer(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte)
+UnityEngine.Networking.NetworkServerSimple:Update()
+UnityEngine.Networking.NetworkServer:InternalUpdate()
+UnityEngine.Networking.NetworkServer:Update()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:InvokeCmdCmdCreer(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte)
+UnityEngine.Networking.NetworkServerSimple:Update()
+UnityEngine.Networking.NetworkServer:InternalUpdate()
+UnityEngine.Networking.NetworkServer:Update()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:InvokeCmdCmdCreer(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte)
+UnityEngine.Networking.NetworkServerSimple:Update()
+UnityEngine.Networking.NetworkServer:InternalUpdate()
+UnityEngine.Networking.NetworkServer:Update()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at Leap.Unity.LeapRTS_Prefab.Awake () [0x00000] in <filename unknown>:0 
+UnityEngine.Object:INTERNAL_CALL_Internal_InstantiateSingle(Object, Vector3&, Quaternion&)
+UnityEngine.Object:Internal_InstantiateSingle(Object, Vector3, Quaternion)
+UnityEngine.Object:Instantiate(Object, Vector3, Quaternion)
+NetworkInstance:CmdCreer()
+NetworkInstance:InvokeCmdCmdCreer(NetworkBehaviour, NetworkReader)
+UnityEngine.Networking.NetworkIdentity:HandleCommand(Int32, NetworkReader)
+UnityEngine.Networking.NetworkServer:OnCommandMessage(NetworkMessage)
+UnityEngine.Networking.NetworkConnection:HandleReader(NetworkReader, Int32, Int32)
+UnityEngine.Networking.NetworkConnection:HandleBytes(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkConnection:TransportRecieve(Byte[], Int32, Int32)
+UnityEngine.Networking.NetworkServer:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.ServerSimpleWrapper:OnData(NetworkConnection, Int32, Int32)
+UnityEngine.Networking.NetworkServerSimple:HandleData(Int32, Int32, Int32, Byte)
+UnityEngine.Networking.NetworkServerSimple:Update()
+UnityEngine.Networking.NetworkServer:InternalUpdate()
+UnityEngine.Networking.NetworkServer:Update()
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate()
+ 
+(Filename:  Line: -1)
+
